@@ -1,0 +1,28 @@
+.login-content{
+    width: 100%;
+    padding: 15%;
+    margin: auto;
+    background-image: linear-gradient(180deg,  rgb(246, 195, 156), rgb(249, 162, 86));
+    height: 100vh;
+}
+
+.btn-login{
+    background-color: white;
+    color:rgb(251, 178, 95);
+    transition: .4s ease-in;
+}
+
+.btn-login:hover{
+    background-color: rgb(252, 109, 0);
+    color: white;
+}
+.login-options a{
+    text-decoration: none;
+    color: white;
+    transition: .4s ease-in;
+}
+
+.login-options a:hover{
+    text-decoration: none;
+    color: black;
+}

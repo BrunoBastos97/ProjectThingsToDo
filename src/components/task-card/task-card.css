@@ -1,0 +1,19 @@
+.btn-delete:hover{
+    background-color: rgb(252, 109, 0);
+    color: white;
+}
+
+.btn-to-file:hover{
+    background-color: rgb(126, 171, 239); 
+    color: white;
+}
+
+.card-text{
+    max-height: 50px;
+    overflow: hidden;
+}
+
+.rodape-card-btn:hover{
+    background-color: rgb(5, 103, 250); 
+    color: white;    
+}
