@@ -61,7 +61,7 @@ function TaskCard({id, title, description, deadline, userMaster, blocked, state}
                     <h6 className="card-title">{userMaster}</h6>
                     <p className="card-text">{description}</p>
                     {   
-                        (userMaster === userEmail && blocked === 1) || (blocked === 0) ?
+                        (userMaster === userEmail && blocked === 1) || ((blocked === 0) && state != 1) ?
                         <div className='row d-flex align-items-center'>
                             <a href="#" className="btn btn-primary btn-sm btn-to-file col-6" onClick={conclude}>Concluir</a>
                             <a href="#" className="btn btn-danger btn-sm btn-delete col-6" onClick={taskDelete}>Excluir</a>
