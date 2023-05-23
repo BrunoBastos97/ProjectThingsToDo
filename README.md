@@ -20,6 +20,6 @@ Está aplicação oferece uma conexão com o Firebase, serviço de computação 
 - [Font Awesome](https://fontawesome.com/docs)
 
 ### 🤔 Como executar a aplicação
-Carrege o node_modules com o npm install.
-Execute a aplicação com o npm start.
+- Carrege o node_modules com o npm install.
+- Execute a aplicação com o npm start.
 
