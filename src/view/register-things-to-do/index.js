@@ -212,7 +212,7 @@ function RegisterThingsToDo(props){
                                     <a  onClick={id ? update : register} type='button' className='btn col-6 btn-lg btn-block mt-3 btn-cadastro'>{id ? 'Atualizar Evento' : 'Publicar Evento'}</a>
                                 </div> : ''
                             }   
-                            {
+                            { 
                                 userEmail === email ? 
                                 <div>
                                     <div className='text-center'>
@@ -222,7 +222,7 @@ function RegisterThingsToDo(props){
                                 : ''                            
                             }
                         </> 
-                        : state == 1 && loading == 0 ? <div className="d-flex justify-content-center">
+                        : state == 1 && loading == 1 ? <div className="d-flex justify-content-center">
                             <div className="spinner-border text-warning" role="status">
                                 <span className="visually-hidden">Loading...</span>
                             </div>
